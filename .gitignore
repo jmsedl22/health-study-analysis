@@ -1,1 +1,7 @@
+# Specific to local environment
 .venv
+.notes
+
+# OS
+.DS_Store
+._*
