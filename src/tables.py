@@ -1,0 +1,3 @@
+"""
+Styler for tables.
+"""
