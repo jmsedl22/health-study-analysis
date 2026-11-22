@@ -4,7 +4,7 @@ The aim of this assignment is to produce a comprehensive report on a given datas
 
 All program-related documents, except for the notebook, will be written in English; the notebook report itself will be delivered in Swedish.
 
-## Run the Part 1 notebook
+## Run the notebook for Part 1
 
 On Windows, start PowerShell in the repository root, install Python 3.14, and start JupyterLab.
 
@@ -18,12 +18,10 @@ The notebook reads the included CSV and records the package versions and simulat
 
 ## Notebook layout
 
-The Swedish report keeps each calculation next to its figure or table and interpretation. It checks the CSV schema and participant IDs before analysis and uses the available observations for each calculation. [Part 1 notebook](notebooks/HealthStudyReport.ipynb)
+The report notebook checks the CSV schema and participant IDs before analysis and uses the available observations for each calculation. For part 1, all code except what's IO-related is located in the notebook file itself.
 
 ## Statistical methods
 
-The normal approximation and percentile bootstrap give two ways to assess uncertainty in the mean systolic blood pressure. The one-sided Welch test matches the question of whether smokers have higher mean blood pressure and allows the groups to have unequal variances.
+The normal approximation and percentile bootstrap are two ways to assess uncertainty in the mean systolic blood pressure. The one-sided Welch test matches the question of whether smokers have higher mean blood pressure.
 
-## Simulations
-
-The disease simulation uses the observed prevalence as the probability for each of 1,000 simulated participants. The power simulation repeats the Welch test at zero and positive differences to estimate false-positive rates and detection power. Separate fixed NumPy seeds make both simulations and the bootstrap reproducible.
+The power simulation then repeats the Welch test at zero and positive differences to estimate false-positive rates and detection power. Separate fixed NumPy seeds make them reproducible.
