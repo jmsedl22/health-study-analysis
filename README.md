@@ -18,11 +18,9 @@ py -3.14 -m venv .venv
 
 The notebook reads the included CSV and records the package versions and simulation seeds.
 
-## Notebook layout
+## Notebook layout & statistical methods
 
-The report notebook checks the CSV schema and participant IDs before analysis and uses the available observations for each calculation. For part 1, all code except what's IO-related is located in the notebook file itself.
-
-## Statistical methods
+The report notebook checks the CSV schema and participant IDs before analysis and uses the available observations for each calculation.
 
 The normal approximation and percentile bootstrap are two ways to assess uncertainty in the mean systolic blood pressure. The one-sided Welch test matches the question of whether smokers have higher mean blood pressure.
 
