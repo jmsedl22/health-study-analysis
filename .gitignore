@@ -1,6 +1,8 @@
 # Specific to local environment
 .venv
 .notes
+*/.ipynb_checkpoints
+*/__pycache__
 
 # OS
 .DS_Store
