@@ -4,6 +4,8 @@ The aim of this assignment is to produce a comprehensive report on a given datas
 
 All program-related documents, except for the notebook, will be written in English; the notebook report itself will be delivered in Swedish.
 
+Part 1 does not concern code structure, so code is only present in the notebook file at this stage. The one exemption is io utility functions.
+
 ## Run the notebook for Part 1
 
 On Windows, start PowerShell in the repository root, install Python 3.14, and start JupyterLab.
